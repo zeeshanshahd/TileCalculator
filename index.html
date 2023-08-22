@@ -1,0 +1,93 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8"></meta>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
+  <title>Tile Calculator</title>
+
+  <link href="style.css" rel="stylesheet"></link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+     rel="stylesheet">
+
+  <script src="main.js"></script>
+
+  
+</head>
+
+<body>
+  <div class="page-heading">
+    <h1>Tile Calculator</h1></div>
+  <div class="heading">Wall Sizes</div>
+    <div class="heading-description">Enter your wall dimensions here</div>
+  <div class="wall-grid">
+    <div></div>
+    <div class="grid-heading">Width</div>
+    <div class="grid-heading">Height</div>
+    <div class="wall-heading">Wall 1</div>
+    <div><input id="wall-1" type="number" /></div>
+    <div><input id="wall-height1" type="number" /></div>
+    <div class="wall-heading">Wall 2</div>
+    <div><input id="wall-2" type="number" /></div>
+    <div><input id="wall-height2" type="number" /></div> 
+    <div class="wall-heading">Wall 3</div> 
+    <div><input id="wall-3" type="number" /></div>
+    <div><input id="wall-height3" type="number" /></div>
+    <div class="wall-heading">Wall 4</div>
+    <div><input id="wall-4" type="number" /></div>
+    <div><input id="wall-height4" type="number" /></div>  
+  </div>      
+  <p></p>
+    
+  <div class="floor-grid">
+    <div class="wall-heading">Floor</div>
+    <div><input id="floor-length" type="number" /></div>
+    <div><input id="floor-width" type="number" /></div>
+  </div>
+  <p></p>
+<div class="heading">Tile Size (Optional)
+   <div class="heading-description">If you know the tile size, enter here</div>
+   <p></p>
+   <div class="tileSize-grid">
+    <div>Tile Length (in)</div>
+    <div>
+      <input id="tile-length" type="number" /></div>
+      <div class="label-optional">(Optional)</div>
+    <div>Tile Width (in)</div>
+    <div><input id="tile-width" type="number" /></div>
+    <div class="label-optional">(Optional)</div>
+    
+    
+
+  </div>
+
+    <div>
+       <input class="button-calculate" onclick="total(); meters(); totalTilesRequired()" type="button" value="Calculate" />
+       <input class="button-reset" onclick="reset()" type="button" value="Reset" />
+      <h2 class="h2">Your Final Calculations are:</h2>
+    <div class="total-values">
+      <div class="label-total">Total Sq. Feet</div>
+      <div><input class="sum-total" disabled="" id="total" type="number" /></div>
+      <div class="label-total">(Sq. Feet)</div>  
+      <div class="label-total">Sq. Meters</div>
+      <div><input class="sum-meters" disabled="" id="total-meters" type="number" /></div> 
+      <div class="label-total">(Sq. Meters)</div>
+      <div class="label-total">No. of Tiles</div>
+      <div>
+        <input class="sum-inches" disabled="" id="total-inches" type="number" /></div> 
+      <div class="label-total">(pcs)</div>
+      
+
+
+    </div> 
+
+
+
+
+
+   
+
+ 
+</body>
+</html>
