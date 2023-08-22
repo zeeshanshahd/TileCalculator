@@ -1,0 +1,252 @@
+.top-bar {
+  background-color: black;
+  border: 5px;
+  border-color: white;
+  border-radius: 20px;
+  margin-top: -25px;
+
+}
+.topBar-left {
+  color: white;
+  font-family: 'poppins';
+  font-size: 14px;
+  margin-top: -30px;
+  margin-left: 50px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 100px;
+  background-color: black;
+  padding-left: 40px;
+  margin-left: 10px;
+}
+
+.page-heading {
+  font-family: 'poppins';
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+.heading {
+  font-family: 'poppins';
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.heading-description {
+  font-family: 'poppins';
+  font-size: 14px;
+  font-weight: 400;
+}
+.grid-heading { 
+  border: 10px;
+  border-color: grey;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.wall-heading {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 500;
+  padding-left: 50px;
+}
+.wall-grid {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  font-size: 14px;
+  font-family: 'poppins';
+}
+.label-floor {
+  font-size: 14px;
+}
+.floor-grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    font-size: 14px;
+    font-family: 'poppins';
+    font-weight: 600;
+ }
+
+.button-calculate {
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  background-color: rgb(164, 141, 10);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'poppins';
+  border: 5px;
+  border-radius: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.button-reset {
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  background-color: rgb(244, 209, 8);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+  font-family: 'poppins';
+  border: 5px;
+  border-radius: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 35px;
+  margin-right: 10px;
+}
+.total-values {
+    display: grid;
+    grid-template-columns: 110px 210px 150px;
+    margin-top: 10px;
+}
+.label-sqFeet {
+  font-size: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.label-total {
+  font-family: 'poppins';
+  font-size: 14px;
+  font-weight: 700;
+}
+.tileSize-grid {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  font-size: 13px;
+}
+.label-optional {
+  font-family: 'poppins';
+  font-size: 14px;
+  font-style: bold;
+}
+.sum-total {
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 900;
+  color: black;
+}
+.sum-meters {
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 900;
+  color: black;
+}
+.sum-inches {
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 900;
+  color: black;
+}
+
+@media only screen and (max-width:600px) {
+  .top-bar {
+  }
+  .logo {
+    padding-left: 100px;
+  }
+  .topBar-left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .page-heading {
+    font-size: 18px;
+    padding-left: 95px; 
+   }  
+
+  .heading {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .heading-description {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  .wall-heading {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  .wall-grid {
+    grid-template-columns: 100px 100px 100px;
+  }
+
+  .floor-grid {
+    grid-template-columns: 100px 100px 100px;
+  }
+
+  .tileSize-grid {
+    grid-template-columns: 100px 100px;
+    padding-left: 10px;
+  }
+
+  .label-optional {
+    font-size: 12px;
+  }
+
+  .button-calculate {
+    width: 160px;
+    height: 30px;
+    border: 5px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 105px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .button-reset {
+    width: 160px;
+    height: 30px;
+    border: 5px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 105px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .total-values {
+    font-size: 14px;
+    grid-template-columns: 100px 150px 100px;
+  }
+
+  .sum-total {
+    width: 140px;
+  }
+  .sum-meters {
+    width: 140px;
+  }
+  .sum-inches {
+    width: 140px;
+  }
+  .label-total {
+    font-weight: 600;
+  }
+  }
